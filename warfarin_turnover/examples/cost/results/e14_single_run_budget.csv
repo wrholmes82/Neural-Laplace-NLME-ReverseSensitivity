@@ -1,0 +1,14 @@
+quantity,seconds,note
+include_package,1.407210459,parse and load the package and dependencies
+load_backends,2.16751825,AD backends and rules
+fit_cold,146.610635084,first fit; includes JIT of the objective/gradient path
+fit_warm,54.876516084,"steady-state estimation, identical data and settings"
+information_cold,68.944458416,first observed information; includes JIT
+information_warm,68.146575708,"steady-state observed information, 2p gradients"
+compilation,92.532001708,(fit_cold - fit_warm) + (info_cold - info_warm)
+session_total,347.14559292793274,wall clock for this whole script
+julia_threads,5,-t on the command line
+blas_threads,1,set to 1; parallelism is over subjects
+cpu_threads,8,hardware threads visible to the process
+n_subjects,100,
+p,153,population parameters at W = 10

@@ -1,0 +1,12 @@
+quantity,value,note
+gamma,0.0,
+include_package,1.336688834,parse and load the package
+load_backends,2.131798416,AD backends and rules
+fit_cold,108.848349792,"seed 1, first fit of the session"
+fit_warm,28.343703667,"seed 1 again, identical settings"
+compilation,80.504646125,fit_cold - fit_warm
+session_total,537.5258030891418,wall clock
+julia_threads,5,
+blas_threads,1,
+n_subjects,32,
+n_observations,479,

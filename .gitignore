@@ -1,0 +1,14 @@
+.DS_Store
+# Not part of the public code repository: manuscript, reports, research notes, rendered output
+paper/
+reports/
+research_notes/
+output/
+# Per-replicate checkpoint images and logs written during long runs
+warfarin_turnover/examples/*/results/*_figure_after_*.png
+warfarin_turnover/examples/*/results/*.log
+warfarin_turnover/examples/*/results_smoke/
+# Local tool state
+.claude/
+# Citation file held back until the paper is public
+CITATION.cff

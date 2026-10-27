@@ -1,0 +1,14 @@
+quantity,seconds,note
+lambda,1.0,ridge strength on the network block
+include_package,1.491235833,parse and load the package and dependencies
+load_backends,2.223413625,AD backends and rules
+fit_cold,171.058643959,first penalised fit; includes JIT
+fit_warm,98.912679208,steady-state penalised estimation
+information_cold,40.362687542,first observed information; includes JIT
+information_warm,38.966552792,steady-state observed information
+compilation,73.542099501,(fit_cold - fit_warm) + (info_cold - info_warm)
+session_total,359.83374285697937,wall clock for this script
+julia_threads,5,
+blas_threads,1,
+n_subjects,100,
+p,153,

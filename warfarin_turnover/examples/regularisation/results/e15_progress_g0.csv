@@ -1,0 +1,7 @@
+gamma,seed,model,completed_at,fit_seconds,information_seconds,information_finite,return_code
+0.0,1,M_nn(10),2026-08-17T14:24:45.636,28.343703667,23.067823875,false,gradient_rescued
+0.0,2,M_nn(10),2026-08-17T14:25:53.804,30.594651792,22.698049792,false,gradient_rescued
+0.0,3,M_nn(10),2026-08-17T14:27:14.094,31.167681667,32.954662916,true,objective_flat
+0.0,4,M_nn(10),2026-08-17T14:28:32.532,41.884898542,22.250802583,true,objective_flat
+0.0,5,M_nn(10),2026-08-17T14:29:41.743,29.058708291,25.882632542,false,gradient_rescued
+0.0,0,M_par,2026-08-17T14:30:30.643,30.541852375,0.316596667,true,converged

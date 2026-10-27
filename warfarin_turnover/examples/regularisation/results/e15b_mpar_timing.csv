@@ -1,0 +1,18 @@
+quantity,value,note
+include_package,1.41186225,
+load_backends,2.202416334,
+fit_cold,71.64034675,first fit of the session
+fit_warm,1.588132417,steady-state estimation
+information_cold,0.5441235,
+information_warm,0.32564225,"steady state, 2p gradients"
+compilation,70.270695583,(fit_cold - fit_warm) + (info_cold - info_warm)
+OFV,2460.238616550197,no penalty applies to M_par
+df_eff,14,= rank(J_tau); no penalised block
+n_kept,14,
+tau,0.0,
+p,14,
+hessian_regularization,1.0e-8,
+information_finite,true,
+objective_rescues,0,
+gradient_rescues,0,
+session_total,84.31878209114075,

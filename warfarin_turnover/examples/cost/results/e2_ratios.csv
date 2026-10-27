@@ -1,0 +1,5 @@
+p,width,numerator,denominator,time_ratio,alloc_ratio,what
+58.0,5,forward_laplace,reverse_laplace,5.577928891522837,4.914028528626525,"INCUMBENT vs reverse, exact Laplace — the headline ratio"
+153.0,10,forward_laplace,reverse_laplace,16.771201153009617,11.449574106456197,"INCUMBENT vs reverse, exact Laplace — the headline ratio"
+493.0,20,forward_laplace,reverse_laplace,50.59222473584271,36.27767066550816,"INCUMBENT vs reverse, exact Laplace — the headline ratio"
+1773.0,40,forward_laplace,reverse_laplace,165.3808961396455,126.24533160314411,"INCUMBENT vs reverse, exact Laplace — the headline ratio"

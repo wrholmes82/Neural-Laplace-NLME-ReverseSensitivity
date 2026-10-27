@@ -1,0 +1,10 @@
+category,quantity,value,units,scope,reference_n,reference_median,reference_min,reference_max,source,note
+timing,package load,3.5747287090000004,s,per session,1,NaN,NaN,NaN,E14,"parsing and loading the package, its dependencies and the AD backends"
+timing,compilation,92.532001708,s,per session,1,NaN,NaN,NaN,E14,"cold minus warm on the fit and on the information; paid once because the network width is a runtime field, so all fits share compiled code"
+timing,estimation,54.876516084,s,per fit,5,76.489414209,59.797467667,99.298568208,"E14 value, E11 gamma=1 reference",quasi-Newton outer solve with a damped Newton conditional mode per subject
+timing,observed information,68.146575708,s,per fit,5,58.092938709,50.75977,68.30233575,"E14 value, E11 gamma=1 reference","central differences of the analytic gradient, 2p gradient evaluations"
+configuration,julia threads,5.0,threads,,NaN,NaN,NaN,NaN,E14,parallelism is over subjects
+configuration,BLAS threads,1.0,threads,,NaN,NaN,NaN,NaN,E14,pinned to 1 so it cannot contend with the above
+configuration,CPU threads reported,8.0,threads,,NaN,NaN,NaN,NaN,E14,apple-m1; Julia reports 8 hardware threads in this process
+configuration,subjects,100.0,subjects,,NaN,NaN,NaN,NaN,E14,one synthetic cohort
+configuration,population parameters,153.0,parameters,,NaN,NaN,NaN,NaN,E14,M_nn(10): 12 interpretable and 141 network

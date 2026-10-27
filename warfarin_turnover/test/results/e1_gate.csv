@@ -1,0 +1,80 @@
+model,p,check,quantity,value,threshold,pass
+M_par,14,V1,reverse vs forward-mode scalar,8.146747519580968e-16,1.0e-11,true
+M_par,14,V2,directional vs matrix scalar,4.073373759790484e-16,1.0e-11,true
+M_par,14,V3,reverse vs forward sensitivity,7.467851892949222e-16,1.0e-9,true
+M_par,14,V4,reverse vs FULL-implicit adjoint,7.241553350738639e-16,1.0e-9,true
+M_par,14,V5,threaded vs serial (bitwise),0.0,0.0,true
+M_par,14,V6,OFV vs independent implementation,5.310613181944544e-12,1.0e-8,true
+M_par,14,V6a,Laplace OFV,2073.614001194472,NaN,
+M_par,14,V6b,independent inner worst |grad_eta|,8.189242701739374e-7,NaN,
+M_par,14,V6c,independent inner max iterations,100,NaN,
+M_par,14,V7s,FD rel err at step 0.001,1.09720808499847e-5,NaN,
+M_par,14,V7s,FD rel err at step 0.0003,9.874858413422344e-7,NaN,
+M_par,14,V7s,FD rel err at step 0.0001,1.0970589293482096e-7,NaN,
+M_par,14,V7s,FD rel err at step 3.0e-5,9.896358314667631e-9,NaN,
+M_par,14,V7s,FD rel err at step 1.0e-5,1.2161900095625684e-9,NaN,
+M_par,14,V7,reverse vs central FD (best step),1.2161900095625684e-9,1.0e-5,true
+M_par,14,V7a,FD best step,1.0e-5,NaN,
+M_par,14,D1,inner non-converged,0,NaN,
+M_par,14,D2,worst inner |grad_eta|,3.407923245186186e-11,NaN,
+M_par,14,D3,mean inner Newton iterations,6.9,NaN,
+M_par,14,D4,max |b|,11.06880299998861,NaN,
+M_par,14,D5,max |lambda|,0.012427887310880667,NaN,
+M_par,14,D6,||grad||_inf,39.24808401432959,NaN,
+M_par,14,D7,subjects with non-PD Laplace Htilde,0,NaN,
+M_nn(W=5),58,V1,reverse vs forward-mode scalar,1.156590241740552e-15,1.0e-11,true
+M_nn(W=5),58,V2,directional vs matrix scalar,1.5251739451523764e-16,1.0e-11,true
+M_nn(W=5),58,V3,reverse vs forward sensitivity,1.0803315444829333e-15,1.0e-9,true
+M_nn(W=5),58,V4,reverse vs FULL-implicit adjoint,1.0803315444829333e-15,1.0e-9,true
+M_nn(W=5),58,V5,threaded vs serial (bitwise),0.0,0.0,true
+M_nn(W=5),58,V6,OFV vs independent implementation,1.1020759402979206e-12,1.0e-8,true
+M_nn(W=5),58,V6a,Laplace OFV,2369.7223944768234,NaN,
+M_nn(W=5),58,V6b,independent inner worst |grad_eta|,9.230132619331144e-8,NaN,
+M_nn(W=5),58,V6c,independent inner max iterations,100,NaN,
+M_nn(W=5),58,V7s,FD rel err at step 0.001,1.9936317251546717e-6,NaN,
+M_nn(W=5),58,V7s,FD rel err at step 0.0003,1.7942610147008407e-7,NaN,
+M_nn(W=5),58,V7s,FD rel err at step 0.0001,1.9931163660316135e-8,NaN,
+M_nn(W=5),58,V7s,FD rel err at step 3.0e-5,1.7913092743900032e-9,NaN,
+M_nn(W=5),58,V7s,FD rel err at step 1.0e-5,1.5725092437141254e-10,NaN,
+M_nn(W=5),58,V7,reverse vs central FD (best step),1.5725092437141254e-10,1.0e-5,true
+M_nn(W=5),58,V7a,FD best step,1.0e-5,NaN,
+M_nn(W=5),58,D1,inner non-converged,0,NaN,
+M_nn(W=5),58,D2,worst inner |grad_eta|,9.592899223220147e-11,NaN,
+M_nn(W=5),58,D3,mean inner Newton iterations,7.35,NaN,
+M_nn(W=5),58,D4,max |b|,10.924446596618097,NaN,
+M_nn(W=5),58,D5,max |lambda|,0.018669745203332564,NaN,
+M_nn(W=5),58,D6,||grad||_inf,279.5259142808573,NaN,
+M_nn(W=5),58,D7,subjects with non-PD Laplace Htilde,0,NaN,
+M_nn(W=10),153,V1,reverse vs forward-mode scalar,1.275605915761986e-15,1.0e-11,true
+M_nn(W=10),153,V2,directional vs matrix scalar,2.2110502539874426e-16,1.0e-11,true
+M_nn(W=10),153,V3,reverse vs forward sensitivity,1.2585978368851596e-15,1.0e-9,true
+M_nn(W=10),153,V4,reverse vs FULL-implicit adjoint,1.2075736002546802e-15,1.0e-9,true
+M_nn(W=10),153,V5,threaded vs serial (bitwise),0.0,0.0,true
+M_nn(W=10),153,V6,OFV vs independent implementation,3.660958317275841e-12,1.0e-8,true
+M_nn(W=10),153,V6a,Laplace OFV,2338.1062126033576,NaN,
+M_nn(W=10),153,V6b,independent inner worst |grad_eta|,2.582177627274973e-7,NaN,
+M_nn(W=10),153,V6c,independent inner max iterations,100,NaN,
+M_nn(W=10),153,V7s,FD rel err at step 0.001,2.532118049077123e-6,NaN,
+M_nn(W=10),153,V7s,FD rel err at step 0.0003,2.2789127649171812e-7,NaN,
+M_nn(W=10),153,V7s,FD rel err at step 0.0001,2.5313184749335544e-8,NaN,
+M_nn(W=10),153,V7s,FD rel err at step 3.0e-5,2.2695396765985384e-9,NaN,
+M_nn(W=10),153,V7s,FD rel err at step 1.0e-5,2.6912386645937294e-10,NaN,
+M_nn(W=10),153,V7,reverse vs central FD (best step),2.6912386645937294e-10,1.0e-5,true
+M_nn(W=10),153,V7a,FD best step,1.0e-5,NaN,
+M_nn(W=10),153,D1,inner non-converged,0,NaN,
+M_nn(W=10),153,D2,worst inner |grad_eta|,9.86012437221007e-11,NaN,
+M_nn(W=10),153,D3,mean inner Newton iterations,7.75,NaN,
+M_nn(W=10),153,D4,max |b|,10.919080393621519,NaN,
+M_nn(W=10),153,D5,max |lambda|,0.02211120479417077,NaN,
+M_nn(W=10),153,D6,||grad||_inf,208.88389009302372,NaN,
+M_nn(W=10),153,D7,subjects with non-PD Laplace Htilde,0,NaN,
+discretisation,14,D9,OFV at n_seg=32,2068.0239400871806,NaN,
+discretisation,14,D9,OFV at n_seg=64,2068.0232327792937,NaN,
+discretisation,14,D9,OFV at n_seg=128,2068.0232105198406,NaN,
+discretisation,14,D9,OFV at n_seg=256,2068.02320981247,NaN,
+meta,0,nthreads,Threads.nthreads(),5,NaN,
+meta,0,blas_threads,BLAS.get_num_threads(),1,NaN,
+meta,0,n_subjects,N,20,NaN,
+meta,0,inner_tol,LaplaceConfig.inner_tol,1.0e-10,NaN,
+meta,0,reg,LaplaceConfig.reg,1.0e-8,NaN,
+meta,0,seed,SEED_GATE,20260811,NaN,

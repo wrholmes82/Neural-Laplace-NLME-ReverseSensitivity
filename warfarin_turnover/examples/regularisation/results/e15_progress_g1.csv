@@ -1,0 +1,6 @@
+gamma,seed,model,completed_at,fit_seconds,information_seconds,information_finite,return_code
+1.0,1,M_nn(10),2026-08-17T14:33:27.333,16.669957416,18.770573916,true,objective_flat
+1.0,2,M_nn(10),2026-08-17T14:34:20.627,18.716554958,19.752233708,true,objective_flat
+1.0,3,M_nn(10),2026-08-17T14:35:09.916,17.527435041,17.569165916,true,objective_flat
+1.0,4,M_nn(10),2026-08-17T14:36:47.335,63.034289917,20.654406834,false,gradient_rescued
+1.0,5,M_nn(10),2026-08-17T14:37:37.698,18.880329833,17.312087875,true,objective_flat
