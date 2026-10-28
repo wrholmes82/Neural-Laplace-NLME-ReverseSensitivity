@@ -6,7 +6,7 @@ Everything runs from the repository root against `Local_Env`. The thread count i
 julia --project=Local_Env -t 5 --heap-size-hint=20G <script>
 ```
 
-`-t 5` throughout (five usable cores on the development machine). `--heap-size-hint=20G` matters for E2: the O(p) forward-sensitivity arms allocate heavily and, under Julia's default heap target, garbage collection dominates the timing. The heap hint, thread count and machine load are recorded on every timed row.
+`-t 5` throughout (five usable cores on the development machine). 
 
 ## Setup
 
@@ -14,7 +14,7 @@ julia --project=Local_Env -t 5 --heap-size-hint=20G <script>
 julia setup.jl
 ```
 
-Dev-installs the `NLMEReverse` package (`src/`) into `Local_Env`, adds the packages the scripts use directly, and precompiles. The committed `Local_Env/Manifest.toml` pins every version.
+Installs the `NLMEReverse` package (`src/`) into `Local_Env`, adds the packages the scripts use directly, and precompiles. The committed `Local_Env/Manifest.toml` pins every version.
 
 ## Order
 
@@ -37,7 +37,7 @@ Notes:
 - **Step 1 is a prerequisite.** The simulation truth is the `M_par` fit to the real data. The simulator refuses to run without `truth_par.csv`, and step 1 refuses to write it if its own fit did not converge. The committed `truth_par.csv` is the one the committed results were generated from.
 - **Step 2 is a hard gate.** It exits non-zero on failure. Nothing downstream is meaningful until it passes.
 - **Step 7** takes the ridge strength as its first argument (`0`, `1`, `10`), one process per strength. A second argument `smoke` runs a short check into `results_smoke/`. Steps 5 and 6 accept `smoke` as their first argument for the same purpose.
-- **Step 9 reads committed CSVs only.** It fits, simulates and evaluates nothing, so the figures can be regenerated in about a minute from the results in this repository. `make_figures.jl` also accepts one of `cohort|e2|e11|e9|e15` to draw a single figure.
+- **Step 9 reads committed CSVs only.** It fits, simulates and evaluates nothing, so the figures can be regenerated quickly from the results in this repository. `make_figures.jl` also accepts one of `cohort|e2|e11|e9|e15` to draw a single figure.
 
 ## Artefacts
 
